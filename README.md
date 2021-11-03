@@ -31,7 +31,11 @@
 * Model Importer - Using FBX SDK, ASSIMP SDK
 * Sound - FMOD
 * Collision System - PhysX SDK 
-
+* File Format
+머리1 | 머리2 | 머리3 | 뚝배기
+---- | ---- | ---- | ----
+다리 | 다리1 | 다리2 | 뚝배기깹니다
+금 | 의 | 환 | 향
 ### 클래스 구조도
 
 ### 사용 라이브러리 / SDK
