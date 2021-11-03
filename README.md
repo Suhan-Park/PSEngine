@@ -26,9 +26,9 @@
 	Sphere->AttachComponent(BoxCollider);
 ```
 * Mesh Skinning
-* Light System - Directional Light Only
+* Lighting & Shading System - Directional Light Only
 * Post Processing - SSAO(Screen Space Ambient Occlusion)
-* Mesh Importer - Using FBX SDK, ASSIMP Library
+* Model Importer - Using FBX SDK, ASSIMP SDK
 * Sound - FMOD
 * Collision System - PhysX SDK 
 
