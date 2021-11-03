@@ -34,7 +34,7 @@
 * Supported File Format
 
 File|File Format
-|:---|---|
+|---|---|
 |3D Model|fbx, dae, 3ds, ... (Formats supported by assimp sdk)
 |Texture|dds, png
 |Sound|wav, mp3, ... (Formats supported by assimp fmod)
