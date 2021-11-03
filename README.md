@@ -4,10 +4,18 @@
 #### - [[Video 1]](https://youtu.be/6k3URDt5IMU)   [[Video 2]](https://youtu.be/jgJ7R8a4eA8)
 ![Figure](https://user-images.githubusercontent.com/93682690/140207131-0314c2bf-5d2c-4db7-9cfd-03f2497dc27f.png)
 ***
-### 주요 특징
+### 주요 구현
+* Scene Structure
+* Based On Component Based Development
+
+* Mesh Skinning
+* Light System - Directional Light Only
+* Post Processing - SSAO(Screen Space Ambient Occlusion)
+* Mesh Importer - Using FBX SDK, ASSIMP Library
+* Sound - FMOD
+* Collision System - PhysX SDK 
 
 ### 클래스 구조도
-
 
 ### 사용 라이브러리 / SDK
 #### - FBX SDK
