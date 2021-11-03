@@ -33,10 +33,11 @@
 * Collision System - PhysX SDK 
 * File Format
 
-형식|지원 형식
+File|File Format
 |:---|---|
-|내용1|내용2
-|내용1|내용2
+|3D Model|fbx, dae, 3ds, ... (Formats supported by assimp sdk)
+|Texture|dds, png
+|Sound|wav, mp3, ... (Formats supported by assimp fmod)
 
 ### 클래스 구조도
 
