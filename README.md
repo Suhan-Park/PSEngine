@@ -9,35 +9,21 @@
 * Based On Component Based Development
 
 ```
-	GameObject* floor = GameObject::Instantiate();
-	floor->SetName("Floor");
-	floor->GetComponent<Transform>()->Translate(XMFLOAT3(0.0f, 0.0f, 0.0f));
-	floor->GetComponent<Transform>()->SetWorldScale(XMFLOAT3(20.0f, 0.1f, 20.0f));
+	GameObject* Sphere = GameObject::Instantiate();
+	Sphere->SetName("Sphere");
+	Sphere->GetComponent<Transform>()->Translate(XMFLOAT3(0.0f, 1.5f, 0.0f));
 
-	RigidBody* floorRigidBody = new RigidBody();
-	floor->AttachComponent(floorRigidBody);
-	BoxCollider* floorCollider = new BoxCollider();
-	floorCollider->SetBoxSize(XMFLOAT3(20.0f, 0.01f, 20.0f));
-	floor->AttachComponent(floorCollider);
+	MeshFilter* Meshfilter = PrimitiveGeometry::Sphere();
+	Sphere->AttachComponent(Meshfilter);
 
-	MeshFilter* floorMeshfilter = PrimitiveGeometry::Box();
-	floor->AttachComponent(floorMeshfilter);
+	MeshRenderer* MeshRenderer = new MeshRenderer();
+	Sphere->AttachComponent(MeshRenderer);
 
-	MeshRenderer* floorMeshrender = new MeshRenderer();
-	floor->AttachComponent(floorMeshrender);
-
-	Texture* floorDiffuseMap = new Texture("floor", L"Textures/Floor/T_Herringbone _Red_Albedo.dds");
-	Texture* floorNormalMap = new Texture("floor_n", L"Textures/Floor/T_Herringbone_Normal.dds");
-	floorDiffuseMap->Initialize();
-	floorNormalMap->Initialize();
-
-	Material* floorMaterial = new Material();
-	floorMaterial->SetShineness(0.1f);
-	floorMaterial->SetTiling(XMFLOAT2(4.0f, 4.0f));
-	floorMaterial->SetFresnelR0(XMFLOAT3(0.95f, 0.93f, 0.88f));
-	floorMaterial->AttachDiffuseMap(floorDiffuseMap);
-	floorMaterial->AttachNormalMap(floorNormalMap);
-	floorMeshrender->AttachMaterial(floorMaterial);
+	RigidBody* RigidBody = new RigidBody();
+	RigidBody->SetRigidBodyType(RIGIDBODY_TYPE::DYNAMIC);
+	Sphere->AttachComponent(RigidBody);
+	BoxCollider* BoxCollider = new BoxCollider();
+	Sphere->AttachComponent(BoxCollider);
 ```
 * Mesh Skinning
 * Light System - Directional Light Only
