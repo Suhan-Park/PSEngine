@@ -10,8 +10,8 @@
 
 
 ### 사용 라이브러리 / SDK
-#### FBX SDK
-#### ASSIMP
-#### FMOD
-#### PhysX-4.1
-#### DirectXTK
+#### - FBX SDK
+#### - ASSIMP
+#### - FMOD
+#### - PhysX-4.1
+#### - DirectXTK
