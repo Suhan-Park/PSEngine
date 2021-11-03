@@ -11,21 +11,21 @@
 * Based n Component Based Development
 
 ```
-	GameObject* Sphere = GameObject::Instantiate();
-	Sphere->SetName("Sphere");
-	Sphere->GetComponent<Transform>()->Translate(XMFLOAT3(0.0f, 1.5f, 0.0f));
+	GameObject* sphere = GameObject::Instantiate();
+	sphere->SetName("Sphere");
+	sphere->GetComponent<Transform>()->Translate(XMFLOAT3(0.0f, 1.5f, 0.0f));
 
-	MeshFilter* Meshfilter = PrimitiveGeometry::Sphere();
-	Sphere->AttachComponent(Meshfilter);
+	MeshFilter* meshfilter = PrimitiveGeometry::Sphere();
+	sphere->AttachComponent(meshfilter);
 
-	MeshRenderer* MeshRenderer = new MeshRenderer();
-	Sphere->AttachComponent(MeshRenderer);
+	MeshRenderer* meshrender = new MeshRenderer();
+	sphere->AttachComponent(meshrender);
 
-	RigidBody* RigidBody = new RigidBody();
-	RigidBody->SetRigidBodyType(RIGIDBODY_TYPE::DYNAMIC);
-	Sphere->AttachComponent(RigidBody);
-	BoxCollider* BoxCollider = new BoxCollider();
-	Sphere->AttachComponent(BoxCollider);
+	RigidBody* rigidBody = new RigidBody();
+	rigidBody->SetRigidBodyType(RIGIDBODY_TYPE::DYNAMIC);
+	sphere->AttachComponent(rigidBody);
+	BoxCollider* boxCollider = new BoxCollider();
+	sphere->AttachComponent(boxCollider);
 ```
 * Mesh Skinning
 * Lighting & Shading System - Directional Light Only
