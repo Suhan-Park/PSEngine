@@ -49,7 +49,7 @@ File|File Format
 * DirectXTK
 
 ### Plan
+* Lighting, Post Processing
 * Refactoring
 * Tessellation
 * PBR
-* GUI
