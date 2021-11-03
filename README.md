@@ -42,5 +42,9 @@ File|File Format
 ### 클래스 구조도
 
 ### Requirements
-* FMOD, Fbx Sdk 2020.0, assimp-5.0.1, PhysX-4.1, DirectXTK
+* FMOD
+* Fbx Sdk 2020.0
+* assimp-5.0.1
+* PhysX-4.1
+* DirectXTK
 
