@@ -28,7 +28,7 @@
 * Mesh Skinning
 * Lighting & Shading System - Directional Light Only
 * Post Processing - SSAO(Screen Space Ambient Occlusion)
-* Model Importer - Using FBX SDK, ASSIMP SDK
+* Model Importer - Using FBX SDK, assimp SDK
 * Sound - FMOD
 * Collision System - PhysX SDK 
 * Supported File Format
@@ -43,7 +43,7 @@ File|File Format
 
 ### Requirements
 * FMOD
-* Fbx Sdk 2020.0
+* FBX SDK 2020.0
 * assimp-5.0.1
 * PhysX-4.1
 * DirectXTK
