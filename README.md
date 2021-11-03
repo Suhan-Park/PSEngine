@@ -1,6 +1,6 @@
 # PSEngine
 #### - DirectX 12 Based Engine Framework (C++ Based)
-#### - CBD(Component Based Development) 기반으로 구현되었음.
+#### - Implemented Based on CBD(Component Based Development)
 ***
 ### 비디오
 [Demo](https://youtu.be/6k3URDt5IMU)
