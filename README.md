@@ -4,6 +4,8 @@
 #### [[Video 1]](https://youtu.be/6k3URDt5IMU)   [[Video 2]](https://youtu.be/jgJ7R8a4eA8)
 ![Figure](https://user-images.githubusercontent.com/93682690/140207131-0314c2bf-5d2c-4db7-9cfd-03f2497dc27f.png)
 ***
+### 클래스 구조도
+
 ### 주요 구현 
 * Scene Structure
 * Based On Component Based Development
@@ -38,8 +40,6 @@ File|File Format
 |3D Model|fbx, dae, 3ds, ... (Formats supported by assimp sdk)
 |Texture|dds, png
 |Sound|wav, mp3, ... (Formats supported by assimp fmod)
-
-### 클래스 구조도
 
 ### Requirements
 * FMOD
