@@ -1,5 +1,5 @@
 # PSEngine
-#### - Graphics API - DirectX 12 (C++ Based)
+#### - DirectX 12 Based Engine Framework (C++ Based)
 #### - CBD(Component Based Development) 기반으로 구현되었음.
 ***
 ### 비디오
