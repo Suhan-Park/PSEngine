@@ -8,7 +8,7 @@
 
 ### 주요 구현 
 * Scene Structure
-* Based n Component Based Development
+* Based on Component Based Development
 
 ```
 	GameObject* sphere = GameObject::Instantiate();
