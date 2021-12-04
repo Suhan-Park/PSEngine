@@ -55,7 +55,7 @@ File|File Format
 ***
 
 ### 향후 계획
-* Lighting, Post Processing
+* Deferred Rendering (Lighting, Post Processing)
 * Refactoring
 * Tessellation
 * PBR
