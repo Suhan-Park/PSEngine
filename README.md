@@ -50,7 +50,7 @@ File|File Format
 * FBX SDK 2020.0
 * assimp-5.0.1
 * PhysX-4.1
-* DirectXTK
+* DirectXTK (Include Direct Input Lib)
 
 ***
 
