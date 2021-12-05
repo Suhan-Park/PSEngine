@@ -6,7 +6,7 @@
 ***
 ### 클래스 구조도
 
-![Untitled Diagram-Page-1 drawio (1)](https://user-images.githubusercontent.com/93682690/144744902-c9e73512-97a7-41d2-ab45-693f23f4a843.png)
+![Untitled Diagram-Page-1 drawio (2)](https://user-images.githubusercontent.com/93682690/144745133-a840a2aa-608a-4063-b056-38991ab4ac38.png)
 
 ![Untitled Diagram-Page-2 drawio](https://user-images.githubusercontent.com/93682690/144719774-86810c9b-b42e-4a6b-94bb-02e4aa143ea5.png)
 
