@@ -11,7 +11,7 @@ class GameObject final : public Object
 private:
 	GameObject() = default;
 	
-	virtual ~GameObject() = default; //가상함수로 만드세요.
+	virtual ~GameObject() = default;
 private:
 
 	GameObject(const GameObject& _rhs) = delete;
