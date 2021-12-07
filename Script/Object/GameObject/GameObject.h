@@ -8,10 +8,10 @@ class GameObject final : public Object
 {
 	friend class Scene;
 	
-public:
-	GameObject() = default;
 private:
-	virtual ~GameObject() = default; //°¡»óÇÔ¼ö·Î ¸¸µå¼¼¿ä.
+	GameObject() = default;
+	
+	virtual ~GameObject() = default; //ê°€ìƒí•¨ìˆ˜ë¡œ ë§Œë“œì„¸ìš”.
 private:
 
 	GameObject(const GameObject& _rhs) = delete;
@@ -30,7 +30,7 @@ public:
 		
 		for (auto iter = mComponents.begin(); iter != mComponents.end(); iter++)
 		{
-			// ¹İº¹ÀÚÀÌ¹Ç·Î *iter·Î ÇØ¾ßÇÔ.
+			// ë°˜ë³µìì´ë¯€ë¡œ *iterë¡œ í•´ì•¼í•¨.
 
 			if (typeid(*iter->get()) == type)
 			{
@@ -61,7 +61,7 @@ private:
 
 	std::list<std::shared_ptr<Component>> mComponents;
 
-	// ½Ã½ºÅÛ È£Ãâ ÇÔ¼ö (»ç¿ëÀÚ¿¡°Ô ³ëÃâ ¾ÈµÊ)
+	// ì‹œìŠ¤í…œ í˜¸ì¶œ í•¨ìˆ˜ (ì‚¬ìš©ìì—ê²Œ ë…¸ì¶œ ì•ˆë¨)
 private:
 
 	virtual void _AWAKE_() final;
